@@ -33,8 +33,8 @@ Creamos recuerdos.<span className="text-transparent bg-clip-text bg-gradient-to-
                     Creamos historias.
                 </h1>
 
-                <p className="max-w-xl text-lg text-foreground/60 font-light leading-relaxed mb-10 animate-fade-in-up" style={{ animationDelay: '500ms' }}>EGYPT CRITTENS: 
-Una marca donde los grandes laboratorios se mezclan con 
+                <p className="max-w-xl text-lg text-foreground/60 font-light leading-relaxed mb-10 animate-fade-in-up" style={{ animationDelay: '500ms' }}>EGYPT CRITTENS:  Una marca donde los grandes laboratorios se mezclan con el antiguo Egipto y la ternura.
+
         </p>
                 
                 <div className="flex flex-col sm:flex-row items-center gap-6 animate-fade-in-up" style={{ animationDelay: '700ms' }}>
