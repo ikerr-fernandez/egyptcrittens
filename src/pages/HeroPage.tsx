@@ -4,14 +4,14 @@ import StoreCart from '../components/store/StoreCart';
 import { useAppContext } from '../contexts/AppContext';
 
 const HeroPage: React.FC = () => {
-    const { setPage } = useAppContext();
+  const { setPage } = useAppContext();
 
-    const galacticGradientStyle = {
-        background: 'radial-gradient(circle at center, #2e004d 0%, #1b0f23 40%, #0B0F2A 100%)',
-    };
+  const galacticGradientStyle = {
+    background: 'radial-gradient(circle at center, #2e004d 0%, #1b0f23 40%, #0B0F2A 100%)'
+  };
 
-    return (
-        <div className="relative min-h-screen w-full overflow-hidden flex flex-col text-foreground" style={galacticGradientStyle}>
+  return (
+    <div className="relative min-h-screen w-full overflow-hidden flex flex-col text-foreground" style={galacticGradientStyle}>
             <StoreCart />
             <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
                 <div className="absolute top-[20%] -left-20 w-96 h-96 border border-accent-gold/20 opacity-20 rotate-12" style={{ clipPath: 'polygon(50% 0%, 0% 100%, 100% 100%)' }}></div>
@@ -28,14 +28,14 @@ const HeroPage: React.FC = () => {
                     <span className="text-[10px] uppercase tracking-[0.3em] font-extrabold text-accent-neon">Nueva Colección Galáctica</span>
                 </div>
 
-                <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl font-black text-foreground leading-tight mb-6 max-w-5xl animate-fade-in-up" style={{ animationDelay: '300ms' }}>
-                    Creamos <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-gold via-foreground to-accent-gold">calma.</span> <br />
+                <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl font-black text-foreground leading-tight mb-6 max-w-5xl animate-fade-in-up" style={{ animationDelay: '300ms' }}>Damos calma.
+Creamos recuerdos.<span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-gold via-foreground to-accent-gold">calma.</span> <br />
                     Creamos historias.
                 </h1>
 
-                <p className="max-w-xl text-lg text-foreground/60 font-light leading-relaxed mb-10 animate-fade-in-up" style={{ animationDelay: '500ms' }}>
-                    EGYPT CRITTENS: Un universo terapéutico donde la elegancia del antiguo Egipto se encuentra con el confort del cosmos profundo.
-                </p>
+                <p className="max-w-xl text-lg text-foreground/60 font-light leading-relaxed mb-10 animate-fade-in-up" style={{ animationDelay: '500ms' }}>EGYPT CRITTENS: 
+Una marca donde los grandes laboratorios se mezclan con 
+        </p>
                 
                 <div className="flex flex-col sm:flex-row items-center gap-6 animate-fade-in-up" style={{ animationDelay: '700ms' }}>
                     <button onClick={() => setPage('configurator')} className="group relative flex min-w-[200px] items-center justify-center overflow-hidden rounded-lg bg-accent-gold px-8 py-4 transition-all hover:scale-105 active:scale-95">
@@ -56,19 +56,19 @@ const HeroPage: React.FC = () => {
                     </div>
                     <div className="flex flex-col gap-1">
                         <span className="text-[9px] uppercase tracking-widest text-accent-gold font-bold">Envío</span>
-                        <span className="text-xs text-foreground/70">Interestelar 24/48h</span>
+                        <span className="text-xs text-foreground/70">​4-10 días laborales </span>
                     </div>
                 </div>
                 <div className="flex items-center gap-2 text-foreground/30">
-                    <span className="text-[10px] font-bold">01</span>
-                    <div className="w-24 h-1 bg-foreground/10 rounded-full overflow-hidden">
-                        <div className="w-1/6 h-full bg-accent-gold"></div>
-                    </div>
+                    <span className="text-[10px] font-bold">
+          </span>
+                    
+
+
                     <span className="text-[10px] font-bold">06</span>
                 </div>
             </footer>
-        </div>
-    );
+        </div>);
 };
 
 export default HeroPage;
