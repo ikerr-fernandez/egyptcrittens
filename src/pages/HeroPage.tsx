@@ -65,10 +65,10 @@ Una marca donde los grandes laboratorios se mezclan con 
                     
 
 
-                    <span className="text-[10px] font-bold">06</span>
+                    <span className="text-[10px] font-bold">
+          </span>
                 </div>
             </footer>
-        </div>);
-};
+        </div>);};
 
 export default HeroPage;
