@@ -25,7 +25,7 @@ const HeroPage: React.FC = () => {
             <main className="relative z-10 flex-1 flex flex-col items-center justify-center px-4 text-center">
                 <div className="mb-6 inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary bg-primary/10 backdrop-blur-sm animate-fade-in-up" style={{ animationDelay: '100ms' }}>
                     <span className="material-symbols-outlined text-accent-neon text-sm">auto_awesome</span>
-                    <span className="text-[10px] uppercase tracking-[0.3em] font-extrabold text-accent-neon">Nueva Colección Galáctica</span>
+                    <span className="text-[10px] uppercase tracking-[0.3em] font-extrabold text-accent-neon">NUEVA COLECCIÓN RENOVADA</span>
                 </div>
 
                 <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl font-black text-foreground leading-tight mb-6 max-w-5xl animate-fade-in-up" style={{ animationDelay: '300ms' }}>Damos calma.
@@ -43,7 +43,8 @@ Creamos recuerdos.<span className="text-transparent bg-clip-text bg-gradient-to-
                         <div className="absolute inset-0 bg-gradient-to-r from-foreground/0 via-foreground/20 to-foreground/0 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
                     </button>
                     <button onClick={() => setPage('mission')} className="group flex min-w-[200px] items-center justify-center rounded-lg border border-accent-neon/50 px-8 py-4 transition-all hover:bg-accent-neon/10 hover:border-accent-neon">
-                        <span className="font-display text-sm font-black uppercase tracking-widest text-accent-neon">Descubre nuestra misión</span>
+                        <span className="font-display text-sm font-black uppercase tracking-widest text-accent-neon">DESCUBRE NUESTRO COMPROMISO 
+            </span>
                     </button>
                 </div>
             </main>
@@ -70,5 +71,4 @@ Creamos recuerdos.<span className="text-transparent bg-clip-text bg-gradient-to-
                 </div>
             </footer>
         </div>);};
-
 export default HeroPage;
