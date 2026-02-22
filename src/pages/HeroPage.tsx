@@ -1,6 +1,7 @@
 import React from 'react';
 import StoreHeader from '../components/store/StoreHeader';
 import StoreCart from '../components/store/StoreCart';
+import PartnersCarousel from '../components/store/PartnersCarousel';
 import { useAppContext } from '../contexts/AppContext';
 
 const HeroPage: React.FC = () => {
@@ -70,5 +71,7 @@ Creamos recuerdos.<span className="text-transparent bg-clip-text bg-gradient-to-
           </span>
                 </div>
             </footer>
+
+            <PartnersCarousel />
         </div>);};
 export default HeroPage;
