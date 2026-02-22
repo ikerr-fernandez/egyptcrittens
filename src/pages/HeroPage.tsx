@@ -23,8 +23,8 @@ const HeroPage: React.FC = () => {
             
             <StoreHeader />
 
-            <main className="relative z-10 flex-1 flex flex-col items-center justify-center px-4 text-center">
-                <div className="mb-6 inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary bg-primary/10 backdrop-blur-sm animate-fade-in-up" style={{ animationDelay: '100ms' }}>
+            <main className="relative z-10 flex-1 flex flex-col items-center justify-center px-4 text-center bg-inherit">
+                <div className="mb-6 inline-flex items-center gap-2 px-4 py-1.5 border border-primary bg-primary/10 backdrop-blur-sm animate-fade-in-up rounded-sm shadow-2xl opacity-65" style={{ animationDelay: '100ms' }}>
                     <span className="material-symbols-outlined text-accent-neon text-sm">auto_awesome</span>
                     <span className="text-[10px] uppercase tracking-[0.3em] font-extrabold text-accent-neon">NUEVA COLECCIÓN RENOVADA</span>
                 </div>
