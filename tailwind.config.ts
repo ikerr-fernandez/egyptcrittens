@@ -98,6 +98,10 @@ export default {
           "0%": { transform: "translateX(100%)" },
           "100%": { transform: "translateX(0)" },
         },
+        marquee: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -105,6 +109,7 @@ export default {
         "fade-in-up": "fade-in-up 1s ease-out forwards",
         float: "float 6s ease-in-out infinite",
         "slide-in-right": "slide-in-right 0.5s ease-out forwards",
+        marquee: "marquee 30s linear infinite",
       },
     },
   },
