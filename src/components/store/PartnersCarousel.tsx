@@ -1,20 +1,13 @@
 import React from 'react';
 
 const LOGOS = [
-{ src: "https://centeia.com/wp-content/uploads/2024/11/LOGO-V2-3-1.png", alt: "Partner 1" },
-{ src: "https://centeia.com/wp-content/uploads/2025/02/MIT-1.png", alt: "MIT" },
-{ src: "https://centeia.com/wp-content/uploads/2024/11/LOGO-V2-10.png", alt: "Partner 3" },
-{ src: "https://centeia.com/wp-content/uploads/2025/04/LOGO-V2-microsoft.png", alt: "Microsoft" },
-{ src: "https://centeia.com/wp-content/uploads/2024/11/LOGO-V2-1-1.png", alt: "Partner 5" },
-{ src: "https://centeia.com/wp-content/uploads/2024/11/LOGO-V2-4-1.png", alt: "Partner 6" },
-{ src: "https://centeia.com/wp-content/uploads/2024/11/LOGO-V2-5-1.png", alt: "Partner 7" },
-{ src: "https://centeia.com/wp-content/uploads/2024/11/LOGO-V2-2-1.png", alt: "Partner 8" },
-{ src: "https://centeia.com/wp-content/uploads/2024/11/LOGO-V2-7-1.png", alt: "Partner 9" },
-{ src: "https://centeia.com/wp-content/uploads/2024/11/LOGO-V2-6-1.png", alt: "Partner 10" },
-{ src: "https://centeia.com/wp-content/uploads/2025/02/Mask-group-2.png", alt: "Partner 11" },
-{ src: "https://centeia.com/wp-content/uploads/2025/02/image-14-2.png", alt: "Partner 12" },
-{ src: "https://centeia.com/wp-content/uploads/2025/08/LOGO-V2-nubion.png", alt: "Nubion" },
-{ src: "https://centeia.com/wp-content/uploads/2025/08/LOGO-V2-mailerfind.png", alt: "Mailerfind" }];
+  { src: "/logos/csic.png", alt: "CSIC" },
+  { src: "/logos/shopify.png", alt: "Shopify" },
+  { src: "/logos/ministerio.png", alt: "Ministerio de Ciencia" },
+  { src: "/logos/parla.png", alt: "Ayuntamiento de Parla" },
+  { src: "/logos/correos.png", alt: "Correos" },
+  { src: "/logos/cel.png", alt: "Cel" },
+];
 
 
 const PartnersCarousel: React.FC = () => {
