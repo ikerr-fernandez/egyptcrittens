@@ -29,8 +29,7 @@ const HeroPage: React.FC = () => {
                     <span className="text-[10px] uppercase tracking-[0.3em] font-extrabold text-accent-neon">NUEVA COLECCIÓN RENOVADA</span>
                 </div>
 
-                <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl font-black text-foreground leading-tight mb-6 max-w-5xl animate-fade-in-up" style={{ animationDelay: '300ms' }}>Damos calma.
-Creamos historias.<span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-gold via-foreground to-accent-gold">calma.</span> <br />
+                <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl font-black text-foreground leading-tight mb-6 max-w-5xl animate-fade-in-up" style={{ animationDelay: '300ms' }}>Damos calma.<br />
                     Creamos historias.
                 </h1>
 
